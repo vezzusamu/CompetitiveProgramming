@@ -1,0 +1,12 @@
+The problem goal is to execute for an Array A of n positive integers, two 
+different queries: 
+1) Update: that replaces every value in the given range with the minimum 
+between the current element of the array and a value given as function 
+input, called value_cap
+2) Max: that return the largest element in the given range
+Example: A = [5, 1, 4, 3, 2] 	
+Update(1,2,2)  => A = [2, 1, 4, 3, 2]
+Max(2,4) = 4
+The target time complexity is Θ((n + m)log n) where m is the number of 
+total queries to perform.
+

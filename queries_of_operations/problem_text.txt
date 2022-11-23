@@ -1,0 +1,15 @@
+The problem goal is to perform m increment operations on a given array A 
+of n integers. Each operation must be performed a number of times 
+identified by k queries, each query indicates the operations that have to 
+be performed.
+The problem is offline, so the solution can execute the operations in any 
+order.
+The solution should run in Θ((k + m) log n + n).
+Example: A = [1, 2, 3] 	
+M[1]=[1, 2, 1] //left bound, right bound, value to add
+M[2] = [1, 2, 1]
+M[3] = [1, 3, 2]
+Q[1] = [1, 2] //Query range to execute
+Q[2] = [1, 3]
+Q[3] = [2, 3]
+Output => 9 8 17
